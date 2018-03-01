@@ -1,0 +1,86 @@
+body{
+    width: 100%;
+}
+
+.Header{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;   
+    border: 1px solid; 
+}
+   
+.Header_button{
+    background: white;
+    color: black;
+    width: 150px;
+    height: 100%;
+    padding: 10px 0 10px 0;
+    margin-left: 5%;
+    align-self: center;
+    border: 3px solid black;
+    font-size: 110%;
+ }
+   
+.Header_text{
+  margin-left: 37%;
+  font-size: 220%;
+  font-weight: 900;
+}
+
+.Header_dropdown{
+    
+    background:white;
+ 
+    
+    border: 2px solid black;
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    display: none;
+} 
+
+.display{
+    display: inherit;
+}
+
+
+   
+
+@media(max-width:600px){
+
+    .Header{
+        justify-content: space-around;
+    }
+    .Header_text{
+        margin-right: 15%;
+        font-size: 245%;
+    }
+
+    .Header_button{
+        margin-left: 10%;
+        width: 130px
+    }
+
+    .Block{
+        flex-direction: column;
+    }
+
+    .Block_placeholder{
+        padding: 0 7% 0 7%;
+    }
+
+    .Block_head{
+        font-size: 190%;
+    }
+
+    .Block_para{
+        font-size: 150%;
+    }
+}
+
+
+
+

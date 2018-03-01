@@ -1,0 +1,19 @@
+.Block{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+  }
+  
+  .Block_placeholder{
+      border: 1px solid black;
+      padding: 0 2% 0 2%;
+  
+  }
+  
+  .Block_head{
+      font-size: 150%;
+  }
+  
+  .Block_para{
+      font-size: 150%;
+  }
